@@ -118,6 +118,11 @@ static unsigned int __delta(struct arizona_control *ctl)
 	return _delta(ctl, ctl->ctlval, ctl->value);
 }
 
+static unsigned int __eq_hp_gain(struct arizona_control *ctl)
+{
+	return _pair(ctl, 22, _delta(ctl, ctl->value, 12));
+}
+
 static unsigned int __eq_sp_gain(struct arizona_control *ctl)
 {
 	return _delta(ctl, ctl->value, 12);
