@@ -808,6 +808,9 @@ static inline unsigned int r2h_bits(int cmd)
 /* for compatibility */
 #define S5P_FIMV_E_GOP_CONFIG2			-1
 
+/* for compatibility */
+#define S5P_FIMV_E_GOP_CONFIG2			-1
+
 /* Decoder SFRs for MFC v6.x only */
 #define S5P_FIMV_D_DISPLAY_LUMA_CRC_BOT		0xF52C
 #define S5P_FIMV_D_DISPLAY_CHROMA_CRC_BOT	0xF530

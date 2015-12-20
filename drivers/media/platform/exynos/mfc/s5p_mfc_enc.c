@@ -565,7 +565,7 @@ static struct v4l2_queryctrl controls[] = {
 		.type = V4L2_CTRL_TYPE_INTEGER,
 		.name = "Horizontal size of SAR",
 		.minimum = 0,
-		.maximum = (1 << 16) - 1,
+		.maximum = (1 << 30) - 1,
 		.step = 1,
 		.default_value = 0,
 	},

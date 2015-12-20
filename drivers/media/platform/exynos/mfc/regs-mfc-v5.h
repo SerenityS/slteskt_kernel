@@ -402,6 +402,9 @@ static inline unsigned int r2h_bits(int cmd)
 /* for compatibility */
 #define S5P_FIMV_E_GOP_CONFIG2			-1
 
+/* for compatibility */
+#define S5P_FIMV_E_GOP_CONFIG2			-1
+
 /* Error handling defines */
 #define S5P_FIMV_ERR_WARNINGS_START		145
 #define S5P_FIMV_ERR_WARNINGS_END		182
